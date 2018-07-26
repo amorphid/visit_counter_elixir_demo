@@ -8,8 +8,7 @@ defmodule VisitCounter.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
-      # Starts a worker by calling: VisitCounter.Worker.start_link(arg)
-      # {VisitCounter.Worker, arg},
+      {VisitCounter.Counter, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
