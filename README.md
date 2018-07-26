@@ -2,23 +2,23 @@
 
 It counts!
 
-    iex(2)> VisitCounter.Counter.count
+    iex(2)> VisitCount.Counter.count
     0
-    iex(3)> VisitCounter.Counter.increment
+    iex(3)> VisitCount.Counter.increment
     :ok
-    iex(4)> VisitCounter.Counter.increment
+    iex(4)> VisitCount.Counter.increment
     :ok
-    iex(5)> VisitCounter.Counter.increment
+    iex(5)> VisitCount.Counter.increment
     :ok
-    iex(6)> VisitCounter.Counter.increment
+    iex(6)> VisitCount.Counter.increment
     :ok
-    iex(7)> VisitCounter.Counter.increment
+    iex(7)> VisitCount.Counter.increment
     :ok
-    iex(8)> VisitCounter.Counter.increment
+    iex(8)> VisitCount.Counter.increment
     :ok
-    iex(9)> VisitCounter.Counter.increment
+    iex(9)> VisitCount.Counter.increment
     :ok
-    iex(10)> VisitCounter.Counter.increment
+    iex(10)> VisitCount.Counter.increment
     :ok
-    iex(11)> VisitCounter.Counter.count    
+    iex(11)> VisitCount.Counter.count    
     8

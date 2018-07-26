@@ -8,7 +8,7 @@ defmodule VisitCounter.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
-      {VisitCounter.Counter, []}
+      {VisitCount.Counter, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
