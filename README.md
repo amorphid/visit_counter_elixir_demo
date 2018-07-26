@@ -1,21 +1,24 @@
 # VisitCounter
 
-**TODO: Add description**
+It counts!
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `visit_counter` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:visit_counter, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/visit_counter](https://hexdocs.pm/visit_counter).
-
+    iex(2)> VisitCounter.Counter.count
+    0
+    iex(3)> VisitCounter.Counter.increment
+    :ok
+    iex(4)> VisitCounter.Counter.increment
+    :ok
+    iex(5)> VisitCounter.Counter.increment
+    :ok
+    iex(6)> VisitCounter.Counter.increment
+    :ok
+    iex(7)> VisitCounter.Counter.increment
+    :ok
+    iex(8)> VisitCounter.Counter.increment
+    :ok
+    iex(9)> VisitCounter.Counter.increment
+    :ok
+    iex(10)> VisitCounter.Counter.increment
+    :ok
+    iex(11)> VisitCounter.Counter.count    
+    8
